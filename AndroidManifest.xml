@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mutl.touch.sample"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name="nankai.plant.Main"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="nankai.plant.Other1"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="nankai.plant.Other2"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="nankai.plant.Other3"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="nankai.plant.StartPictureActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="nankai.plant.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="nankai.plant.PlantActivity"
+            android:label="@string/title_activity_plant" >
+        </activity>
+    </application>
+
+    <uses-sdk android:minSdkVersion="8" />
+
+</manifest>
